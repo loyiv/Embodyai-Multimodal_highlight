@@ -20,7 +20,6 @@
 
 2. **[DexGraspVLA：面向通用灵巧抓取的视觉-语言-动作框架](https://arxiv.org/abs/2502.20900)**  
    - **第一作者**：Pengfei Zhao（清华大学）  
-   - **会议/出版**：arXiv 2025  
    - **机构**：清华大学  
    - **项目网站**：[dexgraspvla.github.io](https://dexgraspvla.github.io/)  
    - **代码仓库**：`https://github.com/Psi-Robot/DexGraspVLA`
@@ -43,7 +42,6 @@
 
 1. **[EmbodiedBench：多模态大语言模型在视觉驱动的嵌入式智能体上的综合基准（v2）](https://arxiv.org/abs/2502.09560)**  
    - **第一作者**：Shaojie Yao（纽约大学）  
-   - **会议/出版**：arXiv 2025（v2）  
    - **机构**：NYU  
    - **项目网站**：[embodiedbench.github.io](https://embodiedbench.github.io)  
    - **代码仓库**：`https://github.com/EmbodiedBench/EmbodiedBench`
@@ -51,7 +49,7 @@
 2. **[VLABench：面向语言条件下机器人长时程推理的动作基准](https://arxiv.org/abs/2412.18194)**  
    - **第一作者**：Shiduo Zhang（复旦大学）  
    - **会议/出版**：arXiv 2024  
-   - **机构**：复旦大学  
+   - **机构**：Fudan NLPlab  
    - **项目网站**：[vlabench.github.io](https://vlabench.github.io/)  
 
 ---
@@ -60,21 +58,18 @@
 
 1. **[Navigation World Models（NWM）](https://arxiv.org/abs/2412.03572)**  
    - **第一作者**：Amir Bar（Meta AI）  
-   - **会议/出版**：arXiv 2024  
    - **机构**：Meta AI  
    - **项目网站**：[amirbar.net/nwm](https://amirbar.net/nwm/)  
    - **代码仓库**：`https://github.com/facebookresearch/nwm`
 
 2. **[Text2World：用于符号化世界模型生成的大语言模型基准](https://arxiv.org/abs/2502.13092)**  
-   - **第一作者**：Jiawei Wang（麻省理工学院）  
+   - **第一作者**：Jiawei Wang（MIT）  
    - **会议/出版**：ACL 2024 长文  
-   - **机构**：MIT  
    - **项目网站**：[text-to-world.github.io](https://text-to-world.github.io/)  
    - **代码仓库**：`https://github.com/Aaron617/text2world`
 
 3. **[Cosmos-Transfer1：自适应多模态控制的条件化世界生成](https://arxiv.org/abs/2503.14492)**  
-   - **第一作者**：Cosmos-Transfer1 团队（NVIDIA）  
-   - **会议/出版**：arXiv 2025（v2）  
+   - **第一作者**：Cosmos-Transfer1 （NVIDIA）   
    - **机构**：NVIDIA  
    - **项目网站 / 代码**：`https://github.com/nvidia-cosmos/cosmos-transfer1`
 
@@ -83,30 +78,25 @@
 ## 触觉模态（Touch Modality）
 
 1. **[A Touch, Vision, and Language Dataset for Multimodal Alignment](https://arxiv.org/abs/2406.07124)**  
-   - **第一作者**：Letian Fu（加州大学伯克利分校）  
+   - **第一作者**：Letian Fu（UCB）  
    - **会议/出版**：ICML 2024  
    - **机构**：UC Berkeley  
    - **项目网站**：[tactile-vlm.github.io](https://tactile-vlm.github.io)  
    - **代码仓库**：`https://github.com/tactile-vlm/TVL`
 
 2. **[Binding Touch to Everything：学习统一多模态触觉表示（UniTouch）](https://arxiv.org/abs/2403.09623)**  
-   - **第一作者**：Fengyu Yang（耶鲁大学）  
-   - **会议/出版**：CVPR 2024（开放获取）  
+   - **第一作者**：Fengyu Yang（Yale）  
+   - **会议/出版**：CVPR 2024  
    - **机构**：Yale University  
    - **项目网站**：[cfeng16.github.io/UniTouch](https://cfeng16.github.io/UniTouch/)  
    - **代码仓库**：`https://github.com/cfeng16/UniTouch`
 
 3. **[AnyTouch：跨多种视触传感器学习统一的静动态表示](https://arxiv.org/abs/2502.12191)**  
-   - **第一作者**：Ruoxuan Feng（中国人民大学）  
-   - **会议/出版**：ICLR 2025（已录用）  
+   - **第一作者**：Ruoxuan Feng（人大）  
+   - **会议/出版**：ICLR 2025  
    - **机构**：中国人民大学  
    - **项目网站**：[gewu-lab.github.io/AnyTouch](https://gewu-lab.github.io/AnyTouch/)
 
-4. **[AnyTouch: Learning Unified Static-Dynamic Representation Across Multiple Visuo-Tactile Sensors (镜像)](https://arxiv.org/abs/2503.20020)**  
-   - **第一作者**：Peng Cheng（清华大学）  
-   - **会议/出版**：arXiv 2025  
-   - **机构**：清华大学  
-   - *(示例占位，如需增补可替换为相应触觉新论文)*
 
 ---
 
