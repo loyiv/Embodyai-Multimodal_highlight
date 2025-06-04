@@ -32,7 +32,6 @@
 
 4. **[Gemini Robotics：将AI引入物理世界](https://arxiv.org/abs/2503.20020)**  
    - **第一作者**：Gemini Robotics 团队（Google DeepMind）  
-   - **会议/出版**：arXiv 2025  
    - **机构**：Google DeepMind  
    - *(目前无公开项目网站或代码链接)*
 
