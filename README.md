@@ -75,7 +75,7 @@
 
 ---
 
-## 触觉模态（Touch Modality）
+## 触觉模态
 
 1. **[A Touch, Vision, and Language Dataset for Multimodal Alignment](https://arxiv.org/abs/2406.07124)**  
    - **第一作者**：Letian Fu（UCB）  
