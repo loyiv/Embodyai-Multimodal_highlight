@@ -35,6 +35,12 @@
    - **机构**：Google DeepMind  
    - *(目前无公开项目网站或代码链接)*
 
+5. **[π0.5：具有开放世界泛化能力的视觉-语言-动作模型](https://pi.website/blog/pi05)**  
+   - **第一作者**：Kevin Black（Physical Intelligence）  
+   - **会议/出版**：arXiv 2024（预印本）  
+   - **机构**：Physical Intelligence  
+   - **项目网站**：[pi.website/blog/pi05](https://pi.website/blog/pi05)  
+
 ---
 
 
