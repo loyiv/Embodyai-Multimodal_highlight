@@ -47,7 +47,6 @@
 
 2. **[VLABench：面向语言条件下机器人长时程推理的动作基准](https://arxiv.org/abs/2412.18194)**  
    - **第一作者**：Shiduo Zhang（复旦大学）  
-   - **会议/出版**：arXiv 2024  
    - **机构**：Fudan NLPlab  
    - **项目网站**：[vlabench.github.io](https://vlabench.github.io/)  
 
@@ -57,7 +56,8 @@
 
 1. **[Navigation World Models（NWM）](https://arxiv.org/abs/2412.03572)**  
    - **第一作者**：Amir Bar（Meta AI）  
-   - **机构**：Meta AI  
+   - **机构**：Meta AI
+   - **会议/出版**：CVPR oral 2025  
    - **项目网站**：[amirbar.net/nwm](https://amirbar.net/nwm/)  
    - **代码仓库**：`https://github.com/facebookresearch/nwm`
 
