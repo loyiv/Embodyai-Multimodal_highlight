@@ -37,20 +37,7 @@
 
 ---
 
-## 基准（Benchmark）
 
-1. **[EmbodiedBench：多模态大语言模型在视觉驱动的嵌入式智能体上的综合基准（v2）](https://arxiv.org/abs/2502.09560)**  
-   - **第一作者**：Shaojie Yao（纽约大学）  
-   - **机构**：NYU  
-   - **项目网站**：[embodiedbench.github.io](https://embodiedbench.github.io)  
-   - **代码仓库**：`https://github.com/EmbodiedBench/EmbodiedBench`
-
-2. **[VLABench：面向语言条件下机器人长时程推理的动作基准](https://arxiv.org/abs/2412.18194)**  
-   - **第一作者**：Shiduo Zhang（复旦大学）  
-   - **机构**：Fudan NLPlab  
-   - **项目网站**：[vlabench.github.io](https://vlabench.github.io/)  
-
----
 
 ## 世界模型（World Model）
 
@@ -98,6 +85,19 @@
 
 
 ---
+## Benchmark
 
+1. **[EmbodiedBench：多模态大语言模型在视觉驱动的嵌入式智能体上的综合基准（v2）](https://arxiv.org/abs/2502.09560)**  
+   - **第一作者**：Shaojie Yao（纽约大学）  
+   - **机构**：NYU  
+   - **项目网站**：[embodiedbench.github.io](https://embodiedbench.github.io)  
+   - **代码仓库**：`https://github.com/EmbodiedBench/EmbodiedBench`
+
+2. **[VLABench：面向语言条件下机器人长时程推理的动作基准](https://arxiv.org/abs/2412.18194)**  
+   - **第一作者**：Shiduo Zhang（复旦大学）  
+   - **机构**：Fudan NLPlab  
+   - **项目网站**：[vlabench.github.io](https://vlabench.github.io/)  
+
+---
 
 
