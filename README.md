@@ -1,108 +1,171 @@
-# Embodyai-Multimodal_highlight
+# Embodyai-Multimodal\_highlight
+
 # 机器人与多模态研究论文集
 
-> 本文档按四个类别收录近期相关论文：  
-> - VLA
-> - Benchmark
-> - 世界模型（World Model）  
-> - 触觉模态 
+
 
 ---
 
-## VLA
+## 目录
 
-1. **[3D-VLA：三维视觉-语言-动作生成世界模型](https://arxiv.org/abs/2403.09631)**  
-   - **第一作者**：Zichao Zhang（马萨诸塞大学阿默斯特分校）  
-   - **会议/出版**：ICLR 2024  
-   - **机构**：UMass Amherst  
-   - **项目网站**：所有内容见 [vis-www.cs.umass.edu/3dvla](https://vis-www.cs.umass.edu/3dvla)  
-   - **代码仓库**：`https://github.com/UMass-Embodied-AGI/3D-VLA`
-
-2. **[DexGraspVLA：面向通用灵巧抓取的视觉-语言-动作框架](https://arxiv.org/abs/2502.20900)**  
-   - **第一作者**：Pengfei Zhao（清华大学）  
-   - **机构**：清华大学  
-   - **项目网站**：[dexgraspvla.github.io](https://dexgraspvla.github.io/)  
-   - **代码仓库**：`https://github.com/Psi-Robot/DexGraspVLA`
-
-3. **[FuSe：通过语言对齐微调多模态通用机器人策略](https://arxiv.org/abs/2501.04693)**  
-   - **第一作者**：Tianhe Chen（加州大学伯克利分校）  
-   - **会议/出版**：ICML 2024  
-   - **机构**：UC Berkeley  
-   - **项目网站**：[fuse-model.github.io](https://fuse-model.github.io/)
-
-4. **[Gemini Robotics：将AI引入物理世界](https://arxiv.org/abs/2503.20020)**  
-   - **第一作者**：Gemini Robotics 团队（Google DeepMind）  
-   - **机构**：Google DeepMind  
-   - *(目前无公开项目网站或代码链接)*
-
-5. **[π0.5：具有开放世界泛化能力的视觉-语言-动作模型](https://pi.website/blog/pi05)**  
-   - **第一作者**：Kevin Black（Physical Intelligence）  
-   - **机构**：Physical Intelligence  
-   - **项目网站**：[pi.website/blog/pi05](https://pi.website/blog/pi05)  
+* [Benchmark](#benchmark)
+* [VLA & VLM](#vla--vlm)
+* [触觉模态](#触觉模态)
+* [世界模型](#世界模型)
 
 ---
 
+## Benchmark
 
+1. **[EmbodiedBench (v2)](https://arxiv.org/abs/2502.09560)**
 
-## 世界模型（World Model）
+   * **机构**：New York University (NYU)
+   * **总结**：面向视觉驱动嵌入式智能体的综合评测套件，统一测多模态 LLM 的执行与推理。
 
-1. **[Navigation World Models（NWM）](https://arxiv.org/abs/2412.03572)**  
-   - **第一作者**：Amir Bar（Meta AI）  
-   - **机构**：Meta AI
-   - **会议/出版**：CVPR oral 2025  
-   - **项目网站**：[amirbar.net/nwm](https://amirbar.net/nwm/)  
-   - **代码仓库**：`https://github.com/facebookresearch/nwm`
+2. **[VLABench](https://arxiv.org/abs/2412.18194)**
 
-2. **[Text2World：用于符号化世界模型生成的大语言模型基准](https://arxiv.org/abs/2502.13092)**  
-   - **第一作者**：Jiawei Wang（MIT）  
-   - **会议/出版**：ACL 2024 长文  
-   - **项目网站**：[text-to-world.github.io](https://text-to-world.github.io/)  
-   - **代码仓库**：`https://github.com/Aaron617/text2world`
+   * **机构**：Fudan University — NLP Lab
+   * **总结**：专测语言条件下机器人长时程动作推理，可量化策略连续性与抗干扰。
 
-3. **[Cosmos-Transfer1：自适应多模态控制的条件化世界生成](https://arxiv.org/abs/2503.14492)**  
-   - **第一作者**：Cosmos-Transfer1 （NVIDIA）   
-   - **机构**：NVIDIA  
-   - **项目网站 / 代码**：`https://github.com/nvidia-cosmos/cosmos-transfer1`
+3. **[ALFRED](https://arxiv.org/abs/1912.01734)**
+
+   * **会议/出版**：CVPR 2020
+   * **机构**：University of Washington
+   * **总结**：首个将自然语言长指令映射到多步家务动作的基准；强调状态不可逆与组合操作。
+
+4. **[ALFWorld](https://arxiv.org/abs/2010.03768)**
+
+   * **机构**：University of Washington
+   * **总结**：文字‑视觉双视图环境，对齐动作空间以验证跨模态迁移。
+
+5. **[Alexa Arena](https://arxiv.org/abs/2303.01586)**
+
+   * **机构**：Amazon Lab126
+   * **总结**：面向用户的多房间交互平台，用语音+任务采集真实人机数据。
+
+6. **[Constrained Human‑AI Cooperation (CHAIC)](https://arxiv.org/abs/2411.01796)**
+
+   * **会议/出版**：NeurIPS 2024 (Datasets & Benchmarks)
+   * **机构**：MIT CSAIL
+   * **总结**：让 AI 与身体受限伙伴合作完成长程任务，考查社会感知与协同。
+
+7. **[Habitat 3.0](https://arxiv.org/abs/2310.13724)**
+
+   * **机构**：Meta AI · Georgia Tech
+   * **总结**：引入虚拟人 avatar，与机器人和真人共处，高保真社交导航试验田。
+
+8. **[EgoPlan‑Bench](https://arxiv.org/abs/2312.06722)**
+
+   * **机构**：Huazhong University of Science and Technology
+   * **总结**：第一视角规划基准，专剖多模态 LLM 的状态跟踪与长程依赖弱点。
+
+9. **[ET‑Plan‑Bench](https://arxiv.org/abs/2410.14682)**
+
+   * **机构**：Huazhong University of Science and Technology
+   * **总结**：聚焦空间遮挡与时间因果推理，难度可调的任务级规划集合。
+
+10. **[EmbodiedEval](https://arxiv.org/abs/2501.11858)**
+
+    * **机构**：Tsinghua University
+    * **总结**：125 场景 / 328 任务，统一打分多模态大模型在导航到社交等五类任务。
+
+11. **[Embodied Agent Interface](https://arxiv.org/abs/2410.07166)**
+
+    * **会议/出版**：NeurIPS 2024
+    * **机构**：Chinese University of Hong Kong (CUHK)
+    * **总结**：给 LLM 设计决策界面并量化其具身决策质量，补齐“思考‑行动”评测缺口。
+
+---
+
+## VLA & VLM
+
+1. **[3D‑VLA](https://arxiv.org/abs/2403.09631)**
+
+   * **会议/出版**：ICLR 2024
+   * **机构**：UMass Amherst
+   * **总结**：三维视觉‑语言‑动作世界模型，用 VLA 生成多步 3D 行为。
+
+2. **[DexGraspVLA](https://arxiv.org/abs/2502.20900)**
+
+   * **机构**：Tsinghua University
+   * **总结**：统一模仿+语言提示，实现灵巧手机械手任意抓取。
+
+3. **[FuSe](https://arxiv.org/abs/2501.04693)**
+
+   * **会议/出版**：ICML 2024
+   * **机构**：UC Berkeley
+   * **总结**：语言对齐微调跨机器人策略，一次训练通吃多任务。
+
+4. **[Gemini Robotics](https://arxiv.org/abs/2503.20020)**
+
+   * **机构**：Google DeepMind
+   * **总结**：把 Gemini 模型迁入现实机器人，展示端到端低时延控制。
+
+5. **[π 0.5](https://pi.website/blog/pi05)**
+
+   * **机构**：Physical Intelligence
+   * **总结**：开放世界 VLA，少样本适配任意新物体与场景。
+
+6. **[Robot‑R1](https://arxiv.org/abs/2506.00070)**
+
+   * **机构**：KAIST · Yonsei University · UC Berkeley
+   * **总结**：用强化学习代替 SFT，显著提升 VLM 在具身推理的空间动作预测。
+
+7. **[3DLLM‑Mem](https://arxiv.org/abs/2505.22657)**
+
+   * **会议/出版**：CVPR 2025 (3D LLM/VLA Workshop Best Paper)
+   * **机构**：Tsinghua University
+   * **总结**：加入长期空间‑时间记忆，解决 3D LLM 的“短时健忘”。
+
+8. **[OneTwoVLA](https://arxiv.org/abs/2505.25000)**
+
+   * **机构**：Peking University
+   * **总结**：自适应推理的统一 VLA，任务‑模型双层切换提高推理效率。
+
+9. **[From Strangers to Assistants](https://arxiv.org/abs/2505.22503)**
+
+   * **机构**：Renmin University of China
+   * **总结**：分钟级意图对齐框架，让机器人迅速变成贴心助理。
 
 ---
 
 ## 触觉模态
 
-1. **[A Touch, Vision, and Language Dataset for Multimodal Alignment](https://arxiv.org/abs/2406.07124)**  
-   - **第一作者**：Letian Fu（UCB）  
-   - **会议/出版**：ICML 2024  
-   - **机构**：UC Berkeley  
-   - **项目网站**：[tactile-vlm.github.io](https://tactile-vlm.github.io)  
-   - **代码仓库**：`https://github.com/tactile-vlm/TVL`
+1. **[Touch‑Vision‑Language Dataset](https://arxiv.org/abs/2406.07124)**
 
-2. **[Binding Touch to Everything：学习统一多模态触觉表示（UniTouch）](https://arxiv.org/abs/2403.09623)**  
-   - **第一作者**：Fengyu Yang（Yale）  
-   - **会议/出版**：CVPR 2024  
-   - **机构**：Yale University  
-   - **项目网站**：[cfeng16.github.io/UniTouch](https://cfeng16.github.io/UniTouch/)  
-   - **代码仓库**：`https://github.com/cfeng16/UniTouch`
+   * **会议/出版**：ICML 2024
+   * **机构**：UC Berkeley
+   * **总结**：首个大规模视触语对齐数据集，打通 TVL 三域表征。
 
-3. **[AnyTouch：跨多种视触传感器学习统一的静动态表示](https://arxiv.org/abs/2502.12191)**  
-   - **第一作者**：Ruoxuan Feng（人大）  
-   - **会议/出版**：ICLR 2025  
-   - **机构**：中国人民大学  
-   - **项目网站**：[gewu-lab.github.io/AnyTouch](https://gewu-lab.github.io/AnyTouch/)
+2. **[UniTouch](https://arxiv.org/abs/2403.09623)**
 
+   * **会议/出版**：CVPR 2024
+   * **机构**：Yale University
+   * **总结**：统一多源触觉表示，可迁移至动态交互。
 
----
-## Benchmark
+3. **[AnyTouch](https://arxiv.org/abs/2502.12191)**
 
-1. **[EmbodiedBench：多模态大语言模型在视觉驱动的嵌入式智能体上的综合基准（v2）](https://arxiv.org/abs/2502.09560)**  
-   - **第一作者**：Shaojie Yao（纽约大学）  
-   - **机构**：NYU  
-   - **项目网站**：[embodiedbench.github.io](https://embodiedbench.github.io)  
-   - **代码仓库**：`https://github.com/EmbodiedBench/EmbodiedBench`
-
-2. **[VLABench：面向语言条件下机器人长时程推理的动作基准](https://arxiv.org/abs/2412.18194)**  
-   - **第一作者**：Shiduo Zhang（复旦大学）  
-   - **机构**：Fudan NLPlab  
-   - **项目网站**：[vlabench.github.io](https://vlabench.github.io/)  
+   * **会议/出版**：ICLR 2025
+   * **机构**：Renmin University of China
+   * **总结**：跨视‑触传感器的统一静/动态编码，支持下游分类与控制。
 
 ---
 
+## 世界模型
 
+1. **[Navigation World Models](https://arxiv.org/abs/2412.03572)**
+
+   * **会议/出版**：CVPR 2025 Oral
+   * **机构**：Meta AI
+   * **总结**：预训练可控导航世界模型，一次生成整条轨迹。
+
+2. **[Text2World](https://arxiv.org/abs/2502.13092)**
+
+   * **会议/出版**：ACL 2024
+   * **机构**：MIT
+   * **总结**：基于 LLM 的符号世界生成基准，评测文本‑场景一致性。
+
+3. **[Cosmos‑Transfer1](https://arxiv.org/abs/2503.14492)**
+
+   * **机构**：NVIDIA
+   * **总结**：条件化多模态世界生成框
